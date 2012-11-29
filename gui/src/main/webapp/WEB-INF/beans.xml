@@ -1,0 +1,5 @@
+<beans>
+    <alternatives>
+        <class>org.apache.openwebbeans.eartest.AlternativeDummyService</class>
+    </alternatives>
+</beans>

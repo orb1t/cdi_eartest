@@ -31,11 +31,18 @@
   <packaging>ear</packaging>
 
   <dependencies>
+<!--
     <dependency>
       <groupId>org.apache.openwebbeans.test.eartest</groupId>
       <artifactId>be</artifactId>
       <version>${project.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.openwebbeans.test.eartest</groupId>
+      <artifactId>someotherjar</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+-->
     <dependency>
       <groupId>org.apache.openwebbeans.test.eartest</groupId>
       <artifactId>gui</artifactId>

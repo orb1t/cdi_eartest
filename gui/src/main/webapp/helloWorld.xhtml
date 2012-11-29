@@ -19,13 +19,15 @@
 -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:f="http://java.sun.com/jsf/core"
-	xmlns:h="http://java.sun.com/jsf/html">
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html">
 <head>
-<title>Hello World</title>
+<title>Hello World 2</title>
 </head>
 <body>
-    And the user iiiiiiis???? <h:outputText id="user" value="#{helloWorldBacking.name}" />
+    And the user iiiiiiis???? <h:outputText id="user" value="#{helloWorldBacking.name}" />  <br/><br/>
+    Alternative or not?: <h:outputText id="dummyServiceName" value="#{helloWorldBacking.dummyServiceName}" /> <br/><br/>
+    Is alternative available at all?: <h:outputText id="alternative" value="#{alternativeDummyService.name}" /> <br/><br/>
 </body>
 </html>

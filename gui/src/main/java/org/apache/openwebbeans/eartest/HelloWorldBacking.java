@@ -36,4 +36,9 @@ public class HelloWorldBacking
     }
 
 
+    public String getDummyServiceName()
+    {
+        return svc.getDummyServiceName();
+    }
+
 }

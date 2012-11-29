@@ -11,9 +11,16 @@ public class MailService
 {
     private @Inject User user;
 
+    private @Inject DummyService dummyService;
+
 
     public String getUserName()
     {
         return user.getName();
+    }
+
+    public String getDummyServiceName()
+    {
+        return dummyService.getName();
     }
 }
